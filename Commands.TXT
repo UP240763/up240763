@@ -1,0 +1,6 @@
+cd [NOMBRE DE CARPETA] = Entrar a una CARPETA
+ls = Ver el contenido de la carpeta
+ git config user.name "NAME" = configurar nombre
+ git config user.gmail "Gmail" = configurar correo
+git config --list --local = REVISAR CONFIGURACION
+git branch -m main
