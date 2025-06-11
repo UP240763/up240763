@@ -16,11 +16,11 @@ print(type(10))
 print(type(15))  
 
 # 2. Longitud del primer nombre
-first_name = 'César Omar Medina Elías'
+first_name = 'José Alberto'
 print(len(first_name))
 
 # 3. Comparar longitud del primer nombre y apellido
-last_name = 'Medina Elías'
+last_name = 'Quiroz Macias'
 print(len(first_name) > len(last_name))
 
 # 4-11. Operaciones aritméticas
