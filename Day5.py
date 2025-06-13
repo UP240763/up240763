@@ -9,9 +9,9 @@ frutas = ["manzana", "naranja", "plátano", "fresa", "sandía", "kiwi"]
 print(len(frutas))
 
 # 4: Obtener el primer, el del medio y el último elemento
-print(frutas[0])                        # Primer elemento
-print(frutas[len(frutas) // 2])        # Elemento del medio
-print(frutas[-1])                      # Último elemento
+print(frutas[0])                       
+print(frutas[len(frutas) // 2])        
+print(frutas[-1])                      
 
 # 5: Declarar lista mixed_data_types con información personal
 mixed_data_types = ["José", 18, 1.72, "Soltero", "Ags"]
