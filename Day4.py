@@ -133,4 +133,26 @@ librerias = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
 print(' # '.join(librerias))
 
 # 33: Separar oraciones con salto de línea
-print("\nPython es un lenguaje de programación.\nEs popular en desarrollo web.\nTambién se usa en ciencia de datos.")
+print("\nI am enjoying this challenge.\nI just wonder what is next..")
+
+# 34: Usar secuencia de escape de tabulación para alinear columnas
+print("Name\t\tAge\tCountry\t\tCity")
+print("Asabeneh\t250\tFinland\t\tHelsinki")
+
+# 35: Usar formato de cadena para mostrar el área de un círculo
+radio = 10
+area = 3.14 * radio ** 2
+print("The area of a circle with radius {} is {:.0f} meters square.".format(radio, area))
+
+# 36: Operaciones usando formato de cadena
+a = 8
+b = 6
+
+print("{} + {} = {}".format(a, b, a + b))
+print("{} - {} = {}".format(a, b, a - b))
+print("{} * {} = {}".format(a, b, a * b))
+print("{} / {} = {:.2f}".format(a, b, a / b))
+print("{} % {} = {}".format(a, b, a % b))
+print("{} // {} = {}".format(a, b, a // b))
+print("{} ** {} = {}".format(a, b, a ** b))
+
