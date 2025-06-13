@@ -1,4 +1,4 @@
-#EXERSISES: DAY 4 (1-5)
+#EJERCICIOS: DIA 4
 
 # 1: Concatenar "Treinta Dias En Python"
 space = " "
