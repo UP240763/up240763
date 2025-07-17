@@ -26,9 +26,9 @@ print(it_companies)
 print(len(it_companies))
 
 # 9: Imprimir la primera, segunda y última empresa
-print(it_companies[0])    # Primera
-print(it_companies[1])    # Segunda
-print(it_companies[-1])   # Última
+print(it_companies[0])    
+print(it_companies[1])    
+print(it_companies[-1])   
 
 # 10: Modificar una de las empresas (por ejemplo cambiar 'Google' por 'Alphabet')
 it_companies[1] = "Alphabet"
@@ -44,12 +44,10 @@ it_companies.insert(mitad, "Tesla")
 print(it_companies)
 
 # 13: Cambiar una empresa (excepto IBM) a mayúsculas (por ejemplo 'Facebook')
-if "IBM" in it_companies:
-    for i in range(len(it_companies)):
-        if it_companies[i] != "IBM":
-            it_companies[i] = it_companies[i].upper()
-            break
-print(it_companies)
+upper_all = list(map(str.upper, it_companies))
+index_ibm = it_companies.index("IBM")
+it_companies_final = upper_all[:index_ibm] + ["IBM"] + upper_all[index_ibm+1:]
+print(it_companies_final)
 
 # 14: Unir it_companies con '#; '
 unir = '#; '.join(it_companies)
